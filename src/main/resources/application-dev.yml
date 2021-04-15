@@ -1,0 +1,27 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/meican
+    username: root
+    password: 123456
+    driverClassName: com.mysql.cj.jdbc.Driver
+    platform: org.hibernate.dialect.MySQL5InnoDBDialect
+
+meican:
+  oauth2:
+    clientId: xxxxxxxxxx
+    clientSecret: xxxxxxxxxx
+
+aliyun:
+  accessKeyId: xxxxxxxxxx
+  accessSecret: xxxxxxxxxx
+
+wechat:
+  robot:
+    key: xxxxxxxxxx
+
+server:
+  port: 9001

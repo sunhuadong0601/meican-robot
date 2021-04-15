@@ -1,0 +1,18 @@
+{
+  "properties": [
+    {
+      "name": "aliyun.accessKeyId",
+      "type": "java.lang.String",
+      "description": "Description for aliyun.accessKeyId."
+    },
+    {
+      "name": "aliyun.accessSecret",
+      "type": "java.lang.String",
+      "description": "Description for aliyun.accessSecret."
+    },
+    {
+      "name": "wechat.robot.key",
+      "type": "java.lang.String",
+      "description": "Description for wechat.robot.key."
+    }
+  ] }
